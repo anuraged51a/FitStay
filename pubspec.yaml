@@ -1,0 +1,59 @@
+name: eatfit
+description: Fitness Application to help people track eating habits.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^3.1.0
+  dio: ^3.0.9
+  fluro: ^1.5.1
+  firebase_core: ^0.4.0+9
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+3
+  image_picker: ^0.6.1+4
+  circle_wave_progress: ^0.0.4
+  location: ^2.3.5
+  audioplayers: ^0.7.8
+  intl: ^0.16.0
+  google_maps_flutter: ^0.5.21+7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.3
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+    - assets/credentials.json
+    - assets/gifs/SDM_9.gif
+    - assets/gifs/SDM_12.gif
+    - assets/gifs/SDM_23.gif
+    - assets/gifs/SDM_18.gif
+    - assets/gifs/SDM_58.gif
+    - assets/gifs/SDM_65.gif
+    - assets/audio/SDM_9.mp3
+    - assets/audio/SDM_12.mp3
+    - assets/audio/SDM_23.mp3
+    - assets/audio/SDM_18.mp3
+    - assets/audio/SDM_58.mp3
+    - assets/audio/SDM_65.mp3
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
